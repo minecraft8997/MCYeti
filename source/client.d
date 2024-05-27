@@ -306,7 +306,6 @@ class Client : Player {
 
 					if (muted) {
 						SendMessage("&eYou are muted");
-						return;
 					}
 
 					server.SendGlobalMessage(
